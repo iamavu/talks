@@ -6,7 +6,7 @@ this is vulnerable docker instance/lab for [fermat attack](https://fermatattack.
  - install [docker engine](https://docs.docker.com/engine/install/)
  
  - cd to the downloaded git directory
- `cd mi7-april-2023`
+ `cd mi7-ghc/2023/april`
  
  - make an python3 virtual environment 
  `sudo apt install python3 python3-venv`
@@ -31,10 +31,15 @@ this is vulnerable docker instance/lab for [fermat attack](https://fermatattack.
 
 ## further references 
 [rsa basic maths part 1](https://www.youtube.com/watch?v=4zahvcJ9glg)
+
 [rsa basic maths part 2](https://www.youtube.com/watch?v=oOcTVTpUsPQ)
+
 [cryptohack : great website to learn cryptography](https://cryptohack.org/)
+
 [asecurity-site explaining fermat attack](https://asecuritysite.com/rsa/rsa_01)
+
 [bits-deep blog about rsa](https://bitsdeep.com/posts/attacking-rsa-for-fun-and-ctf-points-part-1/) 
+
 [haveibeenpwned for public keys](https://badkeys.info/)
 
 *note - the dockerfile and the lab was made with time constraints, there might be a better way to achieve the task in more efficient and elegant way, feel free to make PRs for the same :D*
