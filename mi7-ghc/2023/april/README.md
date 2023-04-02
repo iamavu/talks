@@ -3,31 +3,23 @@ this is vulnerable docker instance/lab for [fermat attack](https://fermatattack.
 
 ## instructions to set up the lab
 
- - install [docker engine](https://docs.docker.com/engine/install/)
+ 0. install [docker engine](https://docs.docker.com/engine/install/)
  
- - cd to the downloaded git directory
- `cd mi7-ghc/2023/april`
+ 1. cd to the downloaded git directory == `cd mi7-ghc/2023/april`
  
- - make an python3 virtual environment 
- `sudo apt install python3 python3-venv`
- `python3 -m venv py3env`
+ 2. make an python3 virtual environment  == `sudo apt install python3 python3-venv` &&  `python3 -m venv py3env`
 
- - activate the virtual environment
- `source py3env/bin/activate`
+ 3. activate the virtual environment == `source py3env/bin/activate`
  
- - pip install requirements file
- `pip3 install -r requirements.txt`
+ 4. pip install requirements file == `pip3 install -r requirements.txt`
  
- - run `build.py` , which will set up our vulnerable keys and you should see them in your current folder
- `python3 build.py`
+ 5. run build.py , which will set up our vulnerable keys and you should see them in your current folder == `python3 build.py`
  
- - build the docker image
- `sudo docker build -t secure-site .`
+ 6. build the docker image == `sudo docker build -t secure-site .`
  
- - run the docker container
- `sudo docker run -it secure-site`
+ 7. run the docker container == `sudo docker run -it secure-site`
  
-**assumptions** -  *you are running debian based distribution of linux hence the package manager is apt*
+**assumptions** ==  *you are running debian based distribution of linux hence the package manager is apt*
 
 ## further references 
 [rsa basic maths part 1](https://www.youtube.com/watch?v=4zahvcJ9glg)
