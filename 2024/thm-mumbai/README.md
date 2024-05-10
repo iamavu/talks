@@ -7,4 +7,4 @@ these are files that were used in talk i gave at THM-Mumbai
 
 ## credits 
 
-talk was inspired by lowlevelearning youtube creator
+talk was inspired by [lowlevelearning](https://www.youtube.com/@LowLevelLearning) youtube creator
